@@ -7,11 +7,13 @@ var subscribeMsg = {
   "Message": "",
   "ReturnProperty": null,
   "EventConditions":
-  {
-    "Property": "SensorPosition",
-    "Inequality": "=",
-    "Value": "Center"
-  }
+  [
+    {
+      "Property": "SensorPosition",
+      "Inequality": "=",
+      "Value": "Center"
+    }
+  ]
 };
 
 var unsubscribeMsg = {
